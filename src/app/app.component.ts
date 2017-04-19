@@ -13,12 +13,12 @@ export class MyApp {
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     let config = {
-      apiKey: "AIzaSyBIHFF7giweOCgKtrwecPQ3f_2xoP1-dCQ",
-      authDomain: "codesundar-ionic-chat.firebaseapp.com",
-      databaseURL: "https://codesundar-ionic-chat.firebaseio.com",
-      projectId: "codesundar-ionic-chat",
-      storageBucket: "codesundar-ionic-chat.appspot.com",
-      messagingSenderId: "733908203877"
+      apiKey: "YOUR_API_KEY",
+      authDomain: "YOUR_AUTH_DOMAIN",
+      databaseURL: "YOUR_DATABASE_URL",
+      projectId: "YOUR_PROJECT_ID",
+      storageBucket: "YOUR_STORAGE_BUCKET",
+      messagingSenderId: "YOUR_MESSAGE_ID"
     };
     firebase.initializeApp(config);
     platform.ready().then(() => {
